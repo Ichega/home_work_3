@@ -1,7 +1,8 @@
 fun main() {
-    val ListOfNumbers = listOf("")
-    println(ListOfNumbers)
-    for (x in 1..350){
-        println(ListOfNumbers+x-"")
+    val ListofValue = arrayListOf<Int>()
+    var numbers = 0
+    while (numbers < 11) {
+        println("$numbers")
+        numbers = numbers + 1
     }
 }
